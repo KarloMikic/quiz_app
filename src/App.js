@@ -4,7 +4,7 @@ import {nanoid} from "nanoid"
 
 export default function App(){
      
-    const [startQuiz, setStartQuiz] = React.useState(true)
+    const [startQuiz, setStartQuiz] = React.useState(false)
     function start(){
         setStartQuiz(true)
     }
