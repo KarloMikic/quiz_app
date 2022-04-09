@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/intro-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:40px;
+    min-width: 400px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 19px;
+    text-align: center;
+    color: #293264;
+}
+
+.start-button{
+    font-family: 'Inter';
+    width: 13vh;
+    height: 6vh;
+    border-radius: 15px;
+    margin-top: 30px;
+    background: #4D5B9E;
+    font-weight: 500;
+    text-align: center;
+    color: #F5F7FB;
+}
+
+.questions{
+   
+
+    min-width: 100vh;
+
+}
+.question{
+    margin: 30px;
+
+}
+
+.answers{
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    margin-top: 25px;
+    color: #293264;
+   
+    
+  
+}
+
+.choice{
+    margin-left: 5vh;
+    padding: 5px;
+    border: 0.771045px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 7.71045px;
+    height: 100%;
+    width: 20%;
+    min-width: 10vh;
+    
+}
+.choice-correct{
+    margin-left: 5vh;
+    padding: 5px;
+    border: 0.771045px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 7.71045px;
+    height: 100%;
+    width: 20%;
+    background: #94D7A2;
+    ;
+    opacity: 0.5;
+}
+.choice-incorrect{
+    margin-left: 5vh;
+    padding: 5px;
+    border: 0.771045px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 7.71045px;
+    height: 100%;
+    width: 20%;
+    background: #F8BCBC;
+
+}
+
+.question h1{
+    margin-left: 5vh;
+    font-weight: 700;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #293264;
+    width: 80%
+}
+.question hr {
+    color: #293264;
+    margin-top: 40px;
+   
+   
+    
+    
+ }
+
+.result{
+    margin-right: 22vh;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    margin-left: 20vh;
+}
+.result-score{
+    padding-right: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.result-newQ{
+    background-color: #4D5B9E;
+    color: azure;
+    border-radius: 10px;
+    border:none;
+    height: 4vh;
+    min-width: 10vh;
+
+}
